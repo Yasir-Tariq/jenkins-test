@@ -57,7 +57,7 @@
 <?php require "templates/header.php"; ?>
 
 <?php
-if (isset($_POST['submit'])) {
+set($_POST['submit'])) {
   if ($result && $statement->rowCount() > 0) { ?>
     <h2>Results</h2>
 
