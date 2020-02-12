@@ -24,7 +24,7 @@
 
 
 
-if (isset($_POST['submit'])) {
+
   try {
     require "/var/www/html/config.php";
     require "/var/www/html/common.php";
